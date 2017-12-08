@@ -31,7 +31,7 @@ class CreateMeasurementsTable extends Migration
             $table->string('ankles')->default('0');
             $table->string('inseam')->default('0');
             $table->string('outseam')->default('0');
-            $table->text('other_measurements')->default('0');
+            $table->string('other_measurements')->default('0');
 
             $table->timestamps();
         });
